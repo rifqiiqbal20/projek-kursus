@@ -450,6 +450,9 @@
   .keuntungan{
       display: inline;
   }
+  .nav-menu{
+      display: none;
+    }
     .aboutUs {
       display: none;
     }
