@@ -1,75 +1,96 @@
-.todos{
+@media (min-width: 700px) {
+  .todos {
     position: absolute;
-width: 179px;
-height: 33px;
-left: 150px;
-top: 150px;
+    width: 179px;
+    height: 33px;
+    left: 200px;
+    top: 150px;
 
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 33px;
-/* identical to box height */
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 33px;
+    /* identical to box height */
 
-letter-spacing: -0.01em;
+    letter-spacing: -0.01em;
 
-color: #000000;
-}
+    color: #000000;
+  }
 
-table{
+  table {
     border-collapse: collapse;
     width: 75%;
     position: absolute;
     left: 11%;
     top: 33%;
-}
-th{
-    border: 1px solid #EEF4FA;
-    background-color: #1C1E53;
-    text-align:center ;
+  }
+  th {
+    border: 1px solid #eef4fa;
+    background-color: #1c1e53;
+    text-align: center;
     padding: 5px;
-    color: #EEF4FA;
-}
+    color: #eef4fa;
+  }
 
-td{
-    border: 1px solid #1C1E53;
-    background-color:#EEF4FA ;
-    text-align:left;
+  td {
+    border: 1px solid #1c1e53;
+    background-color: #eef4fa;
+    text-align: left;
     padding: 5px;
-    color: #232536; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    color: #232536;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
 
-
-.lower-bracket {
+  .lower-bracket {
     /* position: absolute; */
     margin-top: 300px;
     padding: 50px;
     /* margin-left: 20px; */
     font-size: 20px;
-}
-.lower-bracket input{
+  }
+  .lower-bracket input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; 
-}
-.lower-bracket #submit{
+    box-sizing: border-box;
+  }
+  .lower-bracket #submit {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-  
+  }
+
   .hide {
     display: none;
     opacity: 0;
   }
+  .todos2 {
+    display: none;
+  }
+  .navbar-expand-lg {
+    display: none;
+  }
+  div.container-fluid {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .todos {
+    display: none;
+  }
+  .todos2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 40px;
+  }
+}

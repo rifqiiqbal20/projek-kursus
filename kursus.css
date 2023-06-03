@@ -1,196 +1,210 @@
-.navbar {
-  position: absolute;
-  width: 100%;
-  height: 90px;
-  left: 0px;
-  top: 0px;
-  background-color: #1c1e53;
-}
+@media (max-width: 700px) {
 
-.edu a {
-  position: absolute;
-  left: 4.86%;
-  right: 86.25%;
-  top: 31.11%;
-  bottom: 31.11%;
-  text-decoration: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 140%;
-  letter-spacing: 0.005em;
-  color: #ffffff;
-}
+  .home {
+    position: absolute;
+    width: 100%;
+    height: 579px;
+    left: 0px;
+    top: 90px;
+    background-color: #1c1e53;
+  }
 
-.nav-menu {
-  position: absolute;
-  left: 600px;
-  top: 30px;
-  bottom: 36.67%;
-}
+  .text-home {
+    position: absolute;
+    width: 597px;
+    height: 330px;
+    left: 70px;
+    top: 112px;
+  }
 
-.nav-menu a {
-  text-decoration: none;
-  margin-right: 34px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  color: #ffffff;
-}
+  .text-home h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+  }
 
-.home {
-  position: absolute;
-  width: 100%;
-  height: 579px;
-  left: 0px;
-  top: 90px;
-  background-color: #1c1e53;
-}
+  .text-home p {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+  }
 
-.text-home {
-  position: absolute;
-  width: 597px;
-  height: 330px;
-  left: 70px;
-  top: 112px;
-}
+  .text-home button {
+    background: #fcd980;
+    border-radius: 5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    width: 185px;
+    height: 54px;
+    letter-spacing: 0.01em;
+    color: #282938;
+  }
 
-.text-home h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 42px;
-  line-height: 160%;
-  letter-spacing: 0.005em;
-  color: #ffffff;
-}
+  .kursus .stars {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: var(--black);
+  }
 
-.text-home p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-style: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  color: #ffffff;
-}
+  .kursus.orderNow {
+    height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .kursus.orderNow button {
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 0.6rem;
+    padding: 0.6rem 2rem;
+    cursor: pointer;
+  }
+  .kursus.orderNow button:hover {
+    font-size: 2rem;
+  }
 
-.text-home button {
-  background: #fcd980;
-  border-radius: 5px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  width: 185px;
-  height: 54px;
-  letter-spacing: 0.01em;
-  color: #282938;
-}
+  .card:hover {
+    color: #9c8bd1;
+    background-color: #0ecbff;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  a {
+    text-decoration: none;
+    color: #2d2e2e;
+  }
+  a:hover {
+    color: #e6b3e5;
+  }
+  .card-body {
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 0%;
+  }
+  .card-image-top {
+    width: 350px;
+    height: 200px;
+  }
 
-.kursus .stars {
-  font-size: 0.8rem;
-  line-height: 1.6;
-  color: var(--black);
-}
+  .text-white {
+    color: #474747 !important;
+    gap: 20px;
+  }
+  .pagination {
+    align-content: center;
+    padding: 30px;
+  }
+  p {
+    color: #474747;
+  }
+  h2 {
+    margin-top: 100px;
+  }
+  h1 {
+    color: #2e2c2c;
+    margin-left: 100px;
+  }
+  h1 {
+    margin-top: 10%;
+  }
+  .btn {
+    color: #121212;
+  }
+  .icon1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-.kursus.orderNow {
-  height: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-}
-.kursus.orderNow button {
-  font-size: 1.8rem;
-  background-color: var(--black);
-  color: var(--white);
-  border-radius: 0.6rem;
-  padding: 0.6rem 2rem;
-  cursor: pointer;
-}
-.kursus.orderNow button:hover {
-  font-size: 2rem;
-}
+  .wm {
+    position: absolute;
+    left: 5.14%;
+    right: 74.24%;
+    top: 1600px;
+    bottom: 5.91%;
+    width: 100%;
+    height: 40px;
+  }
 
-.card:hover {
-  color: #9c8bd1;
-  background-color: #0ecbff;
-  transition: 0.3s;
-  cursor: pointer;
-  transform: scale(1.1);
+  .wm h1 {
+    margin-top: 10px;
+    margin-right: 100px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.005em;
+  }
+  .navbar-expand-lg {
+    display: none;
+  }
 }
-a {
-  text-decoration: none;
-  color: #2d2e2e;
-}
-a:hover {
-  color: #e6b3e5;
-}
-.card-body {
-  background-color: #ffffff;
-  padding: 5px;
-  margin-top: 0%;
-}
-.card-image-top {
-  width: 350px;
-  height: 200px;
-}
+@media (max-width: 700px) {
+  .my-5 {
+    position: absolute;
+  }
+  .navbar-expand-lg {
+    display: inline;
+    background-color: #1c1e53;
+    color: #2c2c60;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-brand {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-decoration: line-through #121212;
+    pointer-events: none;
+    animation: fadee 1s linear infinite;
+  }
 
-.text-white {
-  color: #474747 !important;
-  gap: 20px;
-}
-.pagination {
-  align-content: center;
-  padding: 30px;
-}
-p {
-  color: #474747;
-}
-h2 {
-  margin-top: 100px;
-}
-h1 {
-  color: #2e2c2c;
-  margin-left: 100px;
-}
-h1 {
-  margin-top: 10%;
-}
-.btn {
-  color: #121212;
-}
-.icon1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+  @-webkit-keyframes fadee {
+  }
+  from {
+    opacity: 0.4;
+  }
 
-.wm {
-  position: absolute;
-  left: 5.14%;
-  right: 74.24%;
-  top: 1600px;
-  bottom: 5.91%;
-  width: 100%;
-  height: 40px;
-}
+  to {
+    opacity: 1;
+  }
 
-.wm h1 {
-  margin-top: 10px;
-  margin-right: 100px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 150%;
-  display: flex;
-  justify-content: center;
-  letter-spacing: 0.005em;
-}
-@media (max-width: 500px) {
+  @keyframes fadee {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 4;
+    }
+  }
+  div.navbar {
+    display: none;
+  }
+  .edu,
+  .navbar .nav-menu {
+    display: none;
+  }
+  .aktif {
+    position: relative;
+    background-color: #041cfa;
+  }
+  .nav-item {
+    position: relative;
+    background-color: #3b3a3a;
+  }
 
   .wm {
     display: none;
@@ -213,21 +227,12 @@ h1 {
     position: relative;
     margin-left: -40%;
   }
-  .nav-link {
-    color: #1c1e53;
+  .navbar-nav {
     position: relative;
   }
 
   .container-fluid a {
     color: #eef4fa;
-  }
-  .nav-item .aktif {
-    position: relative;
-    background-color: #370db8;
-  }
-  .nav-item {
-    position: relative;
-    background-color: #ffffff;
   }
 
   body {
