@@ -1,3 +1,4 @@
+@media (min-width: 800px) {
 
 .card {
     padding: 10px;
@@ -55,7 +56,12 @@ display: flex;
 justify-content: center;
 letter-spacing: 0.005em;
 }
-@media (max-width: 700px) {
-
-
+.konten2{
+    display: none;
+}
+}
+@media (max-width: 800px) {
+.my-5{
+    display: none;
+}
 }
